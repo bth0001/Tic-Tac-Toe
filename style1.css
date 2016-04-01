@@ -15,11 +15,13 @@ h1 {
 
 .cell {
   cursor: pointer;
-  font: 120px Arial, sans-serif;
+  font: 120px Comic, sans-serif;
+  font-color: blue;
   vertical-align: top;
   display: inline-block;
   width: 120px;
   height: 120px;
   border: 2px solid #050B78;
   background-color: #DB6825;
+
 }
