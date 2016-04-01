@@ -13,7 +13,7 @@ h1 {
   border: 2px solid #E4620C;
 }
 
-.column {
+.cell {
   cursor: pointer;
   font: 120px Arial, sans-serif;
   vertical-align: top;
