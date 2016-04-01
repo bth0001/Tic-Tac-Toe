@@ -1,0 +1,23 @@
+h1 {
+  font: 40px Arial, sans-serif;
+  color: #D9670E;
+  text-align: center;
+}
+
+.board {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #E4620C;
+}
+
+.column {
+  cursor: pointer;
+  font: 120px Arial, sans-serif;
+  vertical-align: top;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #050B78;
+}

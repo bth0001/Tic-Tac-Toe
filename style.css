@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+.board {
+  position: relative;
+  margin 0 auto;
+  text-align: center;
+}
+
+.column {
+  cursor: pointer;
+  vertical-align: top;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  font: 110px Arial, sans-serif;
+  color: orange;
+}
+
+.first-row .column{
+
+}
+
+.column:last-child{
+  border-right: 0;
+}
+.row:last-child>.col{
+  border-bottom: 0;
+}
