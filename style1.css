@@ -1,3 +1,4 @@
+
 h1 {
   font: 40px Arial, sans-serif;
   color: #D9670E;
@@ -20,4 +21,5 @@ h1 {
   width: 120px;
   height: 120px;
   border: 2px solid #050B78;
+  background-color: #DB6825;
 }
