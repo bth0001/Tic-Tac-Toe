@@ -5,6 +5,10 @@ h1 {
   text-align: center;
 }
 
+.container {
+
+}
+
 .board {
   position: relative;
   text-align: center;
@@ -22,6 +26,10 @@ h1 {
   width: 120px;
   height: 120px;
   border: 2px solid #050B78;
-  background-color: #DB6825;
 
+background-color: #DB6825;
+}
+
+.cell img {
+  width: 95%;
 }
