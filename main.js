@@ -1,9 +1,7 @@
 $(document).ready(function() {
   var auburn = '<img src="http://i.imgur.com/nGtYCT6.gif">'
-  var bama = '<img src="http://i.imgur.com/ETEHO8Q.jpg">'
+  var bama = '<img src="http://i.imgur.com/Hbe73HY.png">'
   var cell = $('.cell');
-  var resetBtn = $('#reset-btn');
-  var moves = ["", "", "", "", "", "", "", "", ""];
   var count = 0;
   var turn = 'X'
 
@@ -11,7 +9,9 @@ for (var i = 0; i < cell.length; i++){
   cell[i].addEventListener('click', setCount);
 }
 
-resetBtn.addEventListener('click', resetBoard);
+$('.newGame').on('click',function(){
+    $('.cell').text('');
+  });
 
 function setCount(){
   if(this.innerHTML !== ''){
@@ -20,10 +20,12 @@ function setCount(){
     count += 1;
     this.innerHTML = auburn;
     getWinner();
-  }else {
-    count += 1;
+  }else if(count += 1){
     this.innerHTML = bama;
     getWinner();
+  }else{
+    count >= 9;
+    alert('Draw!');
   }
 }
 
@@ -71,14 +73,7 @@ function getWinner(){
   }else if(cell[6].innerHTML === bama && cell[4].innerHTML === bama && cell[2].innerHTML === bama){
     alert('Bama Wins!');
   }
-
-function resetBoard(){
-  for(var i = 0; i < cell.length; i++){
-    cell[i].innerHTML = '';
-  }
-  count = 0;
-}
-
 }
 
 });
+

@@ -1,12 +1,21 @@
+container {
+  background-color: black;
+}
 
 h1 {
-  font: 40px Arial, sans-serif;
   color: #D9670E;
   text-align: center;
 }
 
-.container {
+h1 img {
+  width: 3em;
+}
 
+h2 {
+  font-size: 50px;
+  font-family: 'Bangers', cursive;;
+  color: #D9670E;
+  text-align: center;
 }
 
 .board {
@@ -14,20 +23,31 @@ h1 {
   text-align: center;
   margin: 0 auto;
   padding: 20px;
-  border: 2px solid #E4620C;
+  border: 2px solid black;
+  background-image: url('http://i.imgur.com/Mfor3p5.jpg');
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .cell {
-  cursor: pointer;
+  cursor: url('http://i.imgur.com/ygoFyB7.png'), pointer;
   font: 120px Comic, sans-serif;
-  font-color: blue;
+  font-color: white;
   vertical-align: top;
   display: inline-block;
   width: 120px;
   height: 120px;
-  border: 2px solid #050B78;
+  border: 2px solid green;
+  background-color: black;
+}
 
-background-color: #DB6825;
+.newGame {
+  width: 100px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: auto;
+  font-family: 'Bangers', cursive;
 }
 
 .cell img {
