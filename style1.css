@@ -1,4 +1,4 @@
-container {
+body {
   background-color: black;
 }
 
@@ -16,6 +16,17 @@ h2 {
   font-family: 'Bangers', cursive;;
   color: #D9670E;
   text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Bangers', cursive;;
+  color: black;
+  text-align: center;
+  background-color: white;
+  max-width: 125px;
+  margin: auto;
+  border: 1px solid gray;
 }
 
 .board {
@@ -43,6 +54,7 @@ h2 {
 }
 
 .newGame {
+  cursor: pointer;
   width: 100px;
   height: 50px;
   font-size: 1.5em;
