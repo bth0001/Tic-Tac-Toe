@@ -3,7 +3,6 @@ $(document).ready(function() {
   var bama = '<img src="http://i.imgur.com/Hbe73HY.png">'
   var cell = $('.cell');
   var count = 0;
-  var turn = 'X'
   var ausnd = document.getElementById("snd");
   var uasnd = document.getElementById("snd1");
 
@@ -28,44 +27,11 @@ function setCount(){
   }else if(count += 1){
     this.innerHTML = bama;
     getWinner();
-  }else{
-    count >= 9;
-    alert('Draw!');
   }
 }
 
 function getWinner(){
-  if(cell[0].innerHTML === auburn && cell[1].innerHTML === auburn && cell[2].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }else if(cell[3].innerHTML === auburn && cell[4].innerHTML  === auburn && cell[5].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }else if(cell[6].innerHTML  === auburn && cell[7].innerHTML  === auburn && cell[8].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!')
-  }
-
-   else if(cell[0].innerHTML  === auburn && cell[3].innerHTML  === auburn && cell[6].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }else if(cell[1].innerHTML === auburn && cell[4].innerHTML === auburn && cell[7].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }else if(cell[2].innerHTML === auburn && cell[5].innerHTML === auburn && cell[8].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }
-
-   else if(cell[0].innerHTML === auburn && cell[4].innerHTML === auburn && cell[8].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }else if(cell[6].innerHTML === auburn && cell[4].innerHTML === auburn && cell[2].innerHTML === auburn){
-    ausnd.play();
-    alert('Auburn Wins!');
-  }
-
-   else if(cell[0].innerHTML === bama && cell[1].innerHTML === bama && cell[2].innerHTML === bama){
+  if(cell[0].innerHTML === bama && cell[1].innerHTML === bama && cell[2].innerHTML === bama){
     uasnd.play();
     alert('Bama Wins!');
   }else if(cell[3].innerHTML === bama && cell[4].innerHTML  === bama && cell[5].innerHTML === bama){
@@ -76,7 +42,7 @@ function getWinner(){
     alert('Bama Wins!')
   }
 
-   else if(cell[0].innerHTML  === bama && cell[3].innerHTML  === bama && cell[6].innerHTML === bama){
+  else if(cell[0].innerHTML  === bama && cell[3].innerHTML  === bama && cell[6].innerHTML === bama){
     uasnd.play();
     alert('Bama Wins!');
   }else if(cell[1].innerHTML === bama && cell[4].innerHTML === bama && cell[7].innerHTML === bama){
@@ -87,14 +53,50 @@ function getWinner(){
     alert('Bama Wins!');
   }
 
-   else if(cell[0].innerHTML === bama && cell[4].innerHTML === bama && cell[8].innerHTML === bama){
+  else if(cell[0].innerHTML === bama && cell[4].innerHTML === bama && cell[8].innerHTML === bama){
     uasnd.play();
     alert('Bama Wins!');
   }else if(cell[6].innerHTML === bama && cell[4].innerHTML === bama && cell[2].innerHTML === bama){
     uasnd.play();
     alert('Bama Wins!');
   }
+
+  else if(cell[0].innerHTML === auburn && cell[1].innerHTML === auburn && cell[2].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }else if(cell[3].innerHTML === auburn && cell[4].innerHTML  === auburn && cell[5].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }else if(cell[6].innerHTML  === auburn && cell[7].innerHTML  === auburn && cell[8].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!')
+  }
+
+  else if(cell[0].innerHTML  === auburn && cell[3].innerHTML  === auburn && cell[6].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }else if(cell[1].innerHTML === auburn && cell[4].innerHTML === auburn && cell[7].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }else if(cell[2].innerHTML === auburn && cell[5].innerHTML === auburn && cell[8].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }
+
+  else if(cell[0].innerHTML === auburn && cell[4].innerHTML === auburn && cell[8].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }else if(cell[6].innerHTML === auburn && cell[4].innerHTML === auburn && cell[2].innerHTML === auburn){
+    ausnd.play();
+    alert('Auburn Wins!');
+  }
+
+
+
+  else if(count == 9){
+    alert('Tie game! Hit the "New Game" button to play again!');
+  }
+
 }
 
 });
-

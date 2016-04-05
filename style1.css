@@ -14,7 +14,7 @@ h1 img {
 h2 {
   font-size: 50px;
   font-family: 'Bangers', cursive;;
-  color: #D9670E;
+  color: white;
   text-align: center;
 }
 
@@ -30,25 +30,23 @@ h3 {
 }
 
 .board {
-  position: relative;
   text-align: center;
   margin: 0 auto;
-  padding: 20px;
-  border: 2px solid black;
-  background-image: url('http://i.imgur.com/Mfor3p5.jpg');
+  padding: 10px;
+  background-image: url('http://i.imgur.com/Mfor3p5.jpg'), cover;
   background-size: cover;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .cell {
   cursor: url('http://i.imgur.com/ygoFyB7.png'), pointer;
-  font: 120px Comic, sans-serif;
+  font-size: 125px;
   font-color: white;
   vertical-align: top;
   display: inline-block;
-  width: 120px;
-  height: 120px;
+  width: 1em;
+  height: 1em;
   border: 2px solid green;
   background-color: black;
 }
