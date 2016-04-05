@@ -5,6 +5,7 @@ $(document).ready(function() {
   var count = 0;
   var turn = 'X'
   var ausnd = document.getElementById("snd");
+  var uasnd = document.getElementById("snd1");
 
 for (var i = 0; i < cell.length; i++){
   cell[i].addEventListener('click', setCount);
@@ -13,6 +14,8 @@ for (var i = 0; i < cell.length; i++){
 $('.newGame').on('click',function(){
     $('.cell').text('');
     count = 0;
+    ausnd.pause();
+    uasnd.pause();
   });
 
 function setCount(){
@@ -63,24 +66,32 @@ function getWinner(){
   }
 
    else if(cell[0].innerHTML === bama && cell[1].innerHTML === bama && cell[2].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }else if(cell[3].innerHTML === bama && cell[4].innerHTML  === bama && cell[5].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }else if(cell[6].innerHTML  === bama && cell[7].innerHTML  === bama && cell[8].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!')
   }
 
    else if(cell[0].innerHTML  === bama && cell[3].innerHTML  === bama && cell[6].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }else if(cell[1].innerHTML === bama && cell[4].innerHTML === bama && cell[7].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }else if(cell[2].innerHTML === bama && cell[5].innerHTML === bama && cell[8].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }
 
    else if(cell[0].innerHTML === bama && cell[4].innerHTML === bama && cell[8].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }else if(cell[6].innerHTML === bama && cell[4].innerHTML === bama && cell[2].innerHTML === bama){
+    uasnd.play();
     alert('Bama Wins!');
   }
 }
