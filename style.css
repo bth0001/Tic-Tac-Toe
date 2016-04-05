@@ -13,7 +13,7 @@ h1 img {
 
 h2 {
   font-size: 50px;
-  font-family: 'Bangers', cursive;;
+  font-family: 'Bangers', cursive;
   color: white;
   text-align: center;
 }
@@ -33,15 +33,14 @@ h3 {
   text-align: center;
   margin: 0 auto;
   padding: 10px;
-  padding-bottom: 40px;
-  background-image: url('http://i.imgur.com/Mfor3p5.jpg');
+  background-image: url('/Users/bradhughes/Desktop/project-1/au-field.jpg');
   background-size: cover;
   max-width: 100%;
   height: auto;
 }
 
 .cell {
-  cursor: url('http://i.imgur.com/ygoFyB7.png'), pointer;
+  cursor: url('/Users/bradhughes/Desktop/project-1/Iron_Bowl_Logo.png'), pointer;
   font-size: 120px;
   font-color: white;
   vertical-align: top;
