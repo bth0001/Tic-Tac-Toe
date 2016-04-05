@@ -33,14 +33,14 @@ h3 {
   text-align: center;
   margin: 0 auto;
   padding: 10px;
-  background-image: url('/Users/bradhughes/Desktop/project-1/au-field.jpg');
+  background-image: url('http://i.imgur.com/Mfor3p5.jpg');
   background-size: cover;
   max-width: 100%;
   height: auto;
 }
 
 .cell {
-  cursor: url('/Users/bradhughes/Desktop/project-1/Iron_Bowl_Logo.png'), pointer;
+  cursor: url('http://imgur.com/ygoFyB7'), pointer;
   font-size: 120px;
   font-color: white;
   vertical-align: top;
