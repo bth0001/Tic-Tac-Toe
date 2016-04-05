@@ -4,6 +4,7 @@ $(document).ready(function() {
   var cell = $('.cell');
   var count = 0;
   var turn = 'X'
+  var ausnd = document.getElementById("snd");
 
 for (var i = 0; i < cell.length; i++){
   cell[i].addEventListener('click', setCount);
@@ -11,7 +12,7 @@ for (var i = 0; i < cell.length; i++){
 
 $('.newGame').on('click',function(){
     $('.cell').text('');
-    count = 0
+    count = 0;
   });
 
 function setCount(){
@@ -32,32 +33,32 @@ function setCount(){
 
 function getWinner(){
   if(cell[0].innerHTML === auburn && cell[1].innerHTML === auburn && cell[2].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!');
   }else if(cell[3].innerHTML === auburn && cell[4].innerHTML  === auburn && cell[5].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!');
   }else if(cell[6].innerHTML  === auburn && cell[7].innerHTML  === auburn && cell[8].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!')
   }
 
    else if(cell[0].innerHTML  === auburn && cell[3].innerHTML  === auburn && cell[6].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!');
   }else if(cell[1].innerHTML === auburn && cell[4].innerHTML === auburn && cell[7].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!');
   }else if(cell[2].innerHTML === auburn && cell[5].innerHTML === auburn && cell[8].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!');
   }
 
    else if(cell[0].innerHTML === auburn && cell[4].innerHTML === auburn && cell[8].innerHTML === auburn){
-    document.getElementById('snd').play();
+    ausnd.play();
     alert('Auburn Wins!');
   }else if(cell[6].innerHTML === auburn && cell[4].innerHTML === auburn && cell[2].innerHTML === auburn){
-    $('#snd').play()
+    ausnd.play();
     alert('Auburn Wins!');
   }
 
