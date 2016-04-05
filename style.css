@@ -33,6 +33,7 @@ h3 {
   text-align: center;
   margin: 0 auto;
   padding: 10px;
+  padding-bottom: 40px;
   background-image: url('http://i.imgur.com/Mfor3p5.jpg');
   background-size: cover;
   max-width: 100%;
@@ -40,7 +41,7 @@ h3 {
 }
 
 .cell {
-  cursor: url('http://imgur.com/ygoFyB7'), pointer;
+  cursor: url('http://i.imgur.com/ygoFyB7.png'), pointer;
   font-size: 120px;
   font-color: white;
   vertical-align: top;
