@@ -1,31 +1,65 @@
-h1 {
+body {
+  background-color: black;
+}
+
+h2 img {
+  width: 1.3em;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: 'Bangers', cursive;
+  color: white;
   text-align: center;
-  color: orange;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Bangers', cursive;
+  color: black;
+  text-align: center;
+  background-color: white;
+  max-width: 125px;
+  margin: auto;
+  border: 1px solid gray;
 }
 
 .board {
-  position: relative;
-  margin 0 auto;
   text-align: center;
+  margin: 0 auto;
+  background-image: url('http://i.imgur.com/Mfor3p5.jpg');
+  background-size: cover;
+  width: 984px;
+  height: 490px;
 }
 
-.column {
-  cursor: pointer;
+.cell {
+  cursor: url('http://i.imgur.com/ygoFyB7.png'), pointer;
+  font-size: 120px;
+  font-color: white;
   vertical-align: top;
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  font: 110px Arial, sans-serif;
-  color: orange;
+  width: 1em;
+  height: 1em;
+  border: 2px solid green;
+  background-color: black;
 }
 
-.first-row .column{
-
+.newGame {
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 1.5em;
+  margin: auto;
+  font-family: 'Bangers', cursive;
 }
 
-.column:last-child{
-  border-right: 0;
+.cell img {
+  width: 95%;
 }
-.row:last-child>.col{
-  border-bottom: 0;
+
+h4{
+  font-size: null
+  display: inline-block;
+  text-align: center;
 }
