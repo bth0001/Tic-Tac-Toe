@@ -2,17 +2,12 @@ body {
   background-color: black;
 }
 
-h1 {
-  color: #D9670E;
-  text-align: center;
-}
-
-h1 img {
-  width: 3em;
+h2 img {
+  width: 1.3em;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Bangers', cursive;
   color: white;
   text-align: center;
@@ -67,5 +62,4 @@ h4{
   font-size: null
   display: inline-block;
   text-align: center;
-
 }
