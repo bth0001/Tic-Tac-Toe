@@ -32,12 +32,10 @@ h3 {
 .board {
   text-align: center;
   margin: 0 auto;
-  padding: 10px;
-  padding-bottom: 40px;
   background-image: url('http://i.imgur.com/Mfor3p5.jpg');
   background-size: cover;
-  max-width: 100%;
-  height: auto;
+  width: 984px;
+  height: 490px;
 }
 
 .cell {
@@ -63,4 +61,11 @@ h3 {
 
 .cell img {
   width: 95%;
+}
+
+h4{
+  font-size: 40px
+  display: inline-block;
+  text-align: center;
+
 }
