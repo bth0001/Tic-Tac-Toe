@@ -17,7 +17,7 @@ I chose this game because the logic behind it is simple, but a moderate challeng
 * Code Editor - Sublime Text 3
 
 ##Wireframe
-![](http://imgur.com/bQM2iHL)
+![](http://imgur.com/bQM2iHL.png)
 
 ##Future Developments:
 
