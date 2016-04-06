@@ -2,7 +2,7 @@
 
 ##Overview:
 
-"Tic-Tac-Tide & Tigers" is a simple, two-player Tic-Tac-Toe game with an Iron Bowl theme.  Auburn is the home team, 'Bama lost the coin toss, and Auburn has chosen to have the first move.
+"Tic-Tac-Tide & Tigers" is a simple, two-player Tic-Tac-Toe game with an Iron Bowl theme.  Auburn is the home team, 'Bama lost the coin toss, and Auburn has chosen to have the first move! Will the Tigers or the Tide be victorious?
 
 [http://bth0001.github.io/Tic-Tac-Toe/](http://bth0001.github.io/Tic-Tac-Toe/)
 
